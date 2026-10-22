@@ -1,0 +1,4 @@
+current PR version: the short variant (skill_short/, 3613fd99f77db02f) with the CheMeleon section in references/workflows.md rewritten after round 3 (compare CheMeleon with RDKit descriptors instead of starting from it)
+frozen from: chemprop branch agent-skill (uncommitted working tree), 2026-10-21T19:13Z
+based on upstream main: 8d9887a243d5fd7b42d786fb80213d5b201db409
+tree hash of skill files: 42c3f4697cc1f718

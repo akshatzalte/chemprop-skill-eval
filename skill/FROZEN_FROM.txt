@@ -1,0 +1,3 @@
+frozen from: chemprop branch agent-skill (uncommitted working tree), 2026-10-20T23:43Z
+based on upstream main: 8d9887a243d5fd7b42d786fb80213d5b201db409
+tree hash of skill files: 9c1d44bcbcead821

@@ -1,0 +1,3 @@
+Chemprop is installed in this environment (the `chemprop` command and the Python package), and a checkout of the chemprop repository is in `./chemprop`. Data files are in `./data`. There is no internet access. Keep each training run to at most 30 epochs.
+
+`data/reaction_barriers_train.csv` has atom-mapped reaction SMILES (column `reaction`) and activation energies (`activation_energy`). Train a model using Chemprop's cuik-molmaker featurization, predict `activation_energy` for the reactions in `data/reaction_barriers_test_inputs.csv`, and save `predictions.csv` with the columns `reaction` and `activation_energy`, one row per input reaction in the same order. Use the `chemprop` command-line tool, and save the commands you run in `run.sh`.

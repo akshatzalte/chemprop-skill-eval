@@ -1,0 +1,3 @@
+Chemprop is installed in this environment (the `chemprop` command and the Python package), and a checkout of the chemprop repository is in `./chemprop`. Data files are in `./data`. There is no internet access. Keep each training run to at most 30 epochs.
+
+`old_scripts/train_solubility.py` trains a solubility model on `data/solubility_train.csv` and predicts `data/solubility_test_inputs.csv`, but its predictions are poor. Find and fix the problems in the script (keep using the Chemprop Python API), run it, and make sure it writes `predictions.csv` with the columns `smiles` and `logS`, one row per input molecule in the same order.

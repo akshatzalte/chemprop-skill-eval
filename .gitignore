@@ -1,0 +1,9 @@
+.workspace/
+results/**/raw/
+__pycache__/
+.workspace_chemprop_commit
+.cache/
+suite/chemprop-skill/evals/*/scaffold.sh
+suite/chemprop-skill/evals/results/
+.workspace_r3/
+*.bak

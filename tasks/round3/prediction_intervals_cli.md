@@ -1,0 +1,3 @@
+Chemprop is installed in this environment (the `chemprop` command and the Python package), and a checkout of the chemprop repository is in `./chemprop`. Data files are in `./data`. There is no internet access. Keep each training run to at most 30 epochs.
+
+Train a solubility (`logS`) model on `data/solubility_train.csv` that gives 90% prediction intervals. Predict `logS` for the molecules in `data/solubility_test_inputs.csv` and save `predictions.csv` with the columns `smiles`, `logS`, `lower` and `upper` (the bounds of the 90% interval), one row per input molecule in the same order. Use the `chemprop` command-line tool, and save the commands you run in `run.sh`.

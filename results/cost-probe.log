@@ -1,0 +1,13 @@
+[   0.16 $] claude-opus-5-5 report_test_rmse       without passed=True  turns=5 cost=0.15576679999999998 isolation=ok
+[   0.33 $] claude-opus-5-5 train_predict          with_short passed=True  turns=6 cost=0.1750984 isolation=ok
+[   0.50 $] claude-opus-5-5 train_predict          without passed=True  turns=4 cost=0.16514660000000003 isolation=ok
+[   0.61 $] claude-opus-5-5 report_test_rmse       with    passed=True  turns=6 cost=0.11367920000000001 isolation=ok
+[   0.71 $] claude-opus-5-5 report_test_rmse       with_short passed=True  turns=5 cost=0.09549500000000001 isolation=ok
+[   1.13 $] claude-fable-5-1 train_predict          without passed=True  turns=4 cost=0.42863500000000004 isolation=ok
+[   1.46 $] claude-fable-5-1 train_predict          with    passed=True  turns=7 cost=0.324205 isolation=ok
+[   1.76 $] claude-fable-5-1 train_predict          with_short passed=True  turns=6 cost=0.29741325 isolation=ok
+[   2.06 $] claude-fable-5-1 report_test_rmse       without passed=False turns=7 cost=0.30330474999999996 isolation=ok
+[   2.31 $] claude-opus-5-5 train_predict          with    passed=True  turns=9 cost=0.2472558 isolation=ok
+[   2.63 $] claude-fable-5-1 report_test_rmse       with    passed=True  turns=7 cost=0.3235 isolation=ok
+[   2.91 $] claude-fable-5-1 report_test_rmse       with_short passed=True  turns=7 cost=0.28498150000000005 isolation=ok
+done: 2.91 $ spent; results in ~/chemprop-skill-eval/results/2026-10-21-cost-probe/runs.jsonl

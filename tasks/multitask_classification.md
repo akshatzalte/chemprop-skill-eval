@@ -1,0 +1,3 @@
+Chemprop is installed in this environment (the `chemprop` command and the Python package), and a checkout of the chemprop repository is in `./chemprop`. Data files are in `./data`. This is a quick test, so keep any model training to at most 20 epochs.
+
+`data/tox21_subset.csv` has four toxicity endpoints (0/1 labels; some labels are missing). Use the `chemprop` command-line tool to train one multitask classification model on all four endpoints with the default split, and write the test-set ROC-AUC of each endpoint to `roc_auc.json` as `{"endpoint name": value, ...}`. Keep the training outputs (model, logs, splits) in this directory.

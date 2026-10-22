@@ -1,0 +1,11 @@
+run directories: random names in /tmp/cse-runs-<user> (see run_dir in runs.jsonl)
+[   0.15 $] claude-opus-5-5 rdkit_descriptors_cli  with_short passed=True  turns=6 cost=0.15439399999999998 isolation=ok
+[   0.36 $] claude-opus-5-5 rdkit_descriptors_cli  without passed=True  turns=7 cost=0.2091278 isolation=ok
+[   0.57 $] claude-opus-5-5 rdkit_descriptors_cli  with    passed=True  turns=8 cost=0.20512860000000002 isolation=ok
+[   0.83 $] claude-opus-5-5 atom_charges_py        without passed=True  turns=7 cost=0.2650118 isolation=ok
+[   1.18 $] claude-opus-5-5 atom_charges_py        with    passed=True  turns=11 cost=0.34758479999999997 isolation=ok
+[   1.53 $] claude-opus-5-5 atom_charges_py        with_short passed=True  turns=14 cost=0.34485580000000005 isolation=ok
+[   1.98 $] claude-opus-5-5 best_model             without passed=True  turns=15 cost=0.45278539999999995 isolation=ok
+[   2.19 $] claude-opus-5-5 best_model             with_short passed=True  turns=9 cost=0.20928219999999997 isolation=ok
+[   2.39 $] claude-opus-5-5 best_model             with    passed=True  turns=8 cost=0.1989922 isolation=ok
+done: 2.39 $ spent; results in ~/chemprop-skill-eval/results/2026-10-21-r3-opus-probe/runs.jsonl

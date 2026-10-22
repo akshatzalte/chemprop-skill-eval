@@ -1,0 +1,3 @@
+Chemprop is installed in this environment (the `chemprop` command and the Python package), and a checkout of the chemprop repository is in `./chemprop`. Data files are in `./data`. There is no internet access. Keep each training run to at most 30 epochs.
+
+Train a solubility (`logS`) model on `data/solubility_train.csv` that uses RDKit 2D molecular descriptors as additional inputs, scaled appropriately. Predict `logS` for the molecules in `data/solubility_test_inputs.csv` and save the predictions to `predictions.csv` with the columns `smiles` and `logS`, one row per input molecule in the same order. Use the Chemprop Python API (not the command-line tool) in a script named `train.py`, run it, and save the trained model with `chemprop.models.save_model` to `model.pt`.

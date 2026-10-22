@@ -1,0 +1,3 @@
+Chemprop is installed in this environment (the `chemprop` command and the Python package), and a checkout of the chemprop repository is in `./chemprop`. Data files are in `./data`. There is no internet access. Keep each training run to at most 30 epochs.
+
+Train a solubility (`logS`) model on `data/solubility_train.csv` and predict `logS` for the molecules in `data/resonance_forms.csv`, saving `predictions.csv` with the columns `smiles` and `logS`, one row per input molecule in the same order. Some molecules in that file are drawn as different resonance structures of the same molecule, and a molecule must get exactly the same prediction whichever resonance structure is drawn. Use the `chemprop` command-line tool, and save the commands you run in `run.sh`.

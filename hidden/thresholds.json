@@ -1,0 +1,188 @@
+{
+  "atom_charges_cli": {
+    "mae": 0.0127,
+    "mae_reference_atom_charges_cli": {
+      "mean": 0.0103,
+      "sd": 0.0005,
+      "seeds": 5
+    },
+    "mae_reference_atom_charges_py": {
+      "mean": 0.0109,
+      "sd": 0.0009,
+      "seeds": 5
+    }
+  },
+  "atom_charges_py": {
+    "mae": 0.0127,
+    "mae_reference_atom_charges_py": {
+      "mean": 0.0109,
+      "sd": 0.0009,
+      "seeds": 5
+    },
+    "mae_reference_atom_charges_cli": {
+      "mean": 0.0103,
+      "sd": 0.0005,
+      "seeds": 5
+    }
+  },
+  "attentive_aggregation_py": {
+    "rmse": 1.1588,
+    "rmse_reference_attentive_aggregation_py": {
+      "mean": 0.957,
+      "sd": 0.1009,
+      "seeds": 5
+    }
+  },
+  "best_model": {
+    "rmse": 1.0159,
+    "rmse_reference_best_model": {
+      "mean": 0.9235,
+      "sd": 0.0372,
+      "seeds": 5
+    }
+  },
+  "chemeleon_hourglass_cli": {
+    "rmse": 1.8391,
+    "rmse_reference_chemeleon_hourglass_cli": {
+      "mean": 1.4358,
+      "sd": 0.2017,
+      "seeds": 5
+    },
+    "rmse_reference_chemeleon_hourglass_py": {
+      "mean": 1.3611,
+      "sd": 0.0798,
+      "seeds": 5
+    }
+  },
+  "chemeleon_hourglass_py": {
+    "rmse": 1.8391,
+    "rmse_reference_chemeleon_hourglass_py": {
+      "mean": 1.3611,
+      "sd": 0.0798,
+      "seeds": 5
+    },
+    "rmse_reference_chemeleon_hourglass_cli": {
+      "mean": 1.4358,
+      "sd": 0.2017,
+      "seeds": 5
+    }
+  },
+  "constrained_charges_cli": {
+    "mae": 0.009,
+    "mae_reference_constrained_charges_cli": {
+      "mean": 0.0082,
+      "sd": 0.0003,
+      "seeds": 5
+    },
+    "mae_reference_constrained_charges_py": {
+      "mean": 0.0077,
+      "sd": 0.0005,
+      "seeds": 5
+    }
+  },
+  "constrained_charges_py": {
+    "mae": 0.009,
+    "mae_reference_constrained_charges_py": {
+      "mean": 0.0077,
+      "sd": 0.0005,
+      "seeds": 5
+    },
+    "mae_reference_constrained_charges_cli": {
+      "mean": 0.0082,
+      "sd": 0.0003,
+      "seeds": 5
+    }
+  },
+  "cuik_reactions_cli": {
+    "rmse": 2.5741,
+    "rmse_reference_cuik_reactions_cli": {
+      "mean": 2.3162,
+      "sd": 0.0212,
+      "seeds": 5
+    },
+    "rmse_reference_cuik_reactions_py": {
+      "mean": 2.3401,
+      "sd": 0.0527,
+      "seeds": 5
+    }
+  },
+  "cuik_reactions_py": {
+    "rmse": 2.5741,
+    "rmse_reference_cuik_reactions_py": {
+      "mean": 2.3401,
+      "sd": 0.0527,
+      "seeds": 5
+    },
+    "rmse_reference_cuik_reactions_cli": {
+      "mean": 2.3162,
+      "sd": 0.0212,
+      "seeds": 5
+    }
+  },
+  "fix_buggy_script_py": {
+    "rmse": 1.0465,
+    "rmse_reference_fix_buggy_script_py": {
+      "mean": 0.9514,
+      "sd": 0.0421,
+      "seeds": 5
+    }
+  },
+  "prediction_intervals_cli": {
+    "median_width": 6.3356,
+    "median_width_reference_prediction_intervals_cli": {
+      "mean": 5.3507,
+      "sd": 0.4924,
+      "seeds": 5
+    },
+    "median_width_reference_prediction_intervals_py": {
+      "mean": 3.9989,
+      "sd": 0.282,
+      "seeds": 5
+    }
+  },
+  "prediction_intervals_py": {
+    "median_width": 6.3356,
+    "median_width_reference_prediction_intervals_py": {
+      "mean": 3.9989,
+      "sd": 0.282,
+      "seeds": 5
+    },
+    "median_width_reference_prediction_intervals_cli": {
+      "mean": 5.3507,
+      "sd": 0.4924,
+      "seeds": 5
+    }
+  },
+  "rdkit_descriptors_cli": {
+    "rmse": 0.7821,
+    "rmse_reference_rdkit_descriptors_cli": {
+      "mean": 0.711,
+      "sd": 0.0142,
+      "seeds": 5
+    },
+    "rmse_reference_rdkit_descriptors_py": {
+      "mean": 0.5961,
+      "sd": 0.0267,
+      "seeds": 5
+    }
+  },
+  "rdkit_descriptors_py": {
+    "rmse": 0.7821,
+    "rmse_reference_rdkit_descriptors_py": {
+      "mean": 0.5961,
+      "sd": 0.0267,
+      "seeds": 5
+    },
+    "rmse_reference_rdkit_descriptors_cli": {
+      "mean": 0.711,
+      "sd": 0.0142,
+      "seeds": 5
+    }
+  },
+  "marked_atom_cli": {
+    "accuracy": 0.9
+  },
+  "marked_atom_py": {
+    "accuracy": 0.9
+  }
+}

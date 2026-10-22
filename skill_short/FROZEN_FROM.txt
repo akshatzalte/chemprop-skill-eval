@@ -1,0 +1,3 @@
+experimental shorter variant of skill/ (not the PR version): SKILL.md cut to the v1 table, install, the train and predict recipes, pitfalls, and pointers; CheMeleon, fingerprints and GPUs moved to references/workflows.md
+derived from: tree hash of skill files: 9c1d44bcbcead821
+tree hash of skill files: 3613fd99f77db02f
