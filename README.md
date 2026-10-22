@@ -124,7 +124,8 @@ What happened in `best_model`:
 
 ## The skill
 
-The skill lives in the Chemprop package at `chemprop/.agents/skills/chemprop/`. The version
+The skill lives in the Chemprop package at `chemprop/.agents/skills/chemprop/`, proposed in
+[chemprop/chemprop#1419](https://github.com/chemprop/chemprop/pull/1419). The version
 measured here is frozen in [`skill_pr/`](skill_pr/), with checksums and its source in
 `FROZEN_FROM.txt`.
 
